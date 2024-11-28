@@ -5,3 +5,9 @@
 
 - https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
 - https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2024-11-19/2024-11-19-raspios-bookworm-armhf-lite.img.xz
+
+## Make image
+
+```bash
+dd if=/dev/mmcblk0 of=./2024-11-19-raspios-bookworm-armhf-lite.img
+```
